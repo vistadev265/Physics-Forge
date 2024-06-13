@@ -1,47 +1,34 @@
-# Minetest Game
+Minetest Game is the default game bundled with the Minetest engine. It offers a sandbox environment where players can explore, build, and interact with voxel-based worlds.
+Features
 
-[![ContentDB](https://content.minetest.net/packages/Minetest/minetest_game/shields/title/)](https://content.minetest.net/packages/Minetest/minetest_game/)
+    Open-world exploration
+    Creative building with various blocks and materials
+    Multiplayer support
+    Modding capability for extending gameplay
 
-Minetest Game (abbreviated MTG) is a simple and peaceful sandbox game, with no
-real goals or built-in enemy mobs.
+Installation
 
-While it provides a basic gameplay experience out of the box, it is best played
-with mods.
+    Ensure you have Minetest installed. If not, download and install it from Minetest's official website.
+    Minetest Game is included by default with the Minetest engine installation. Simply start Minetest and select "Minetest Game" from the game selection menu.
 
-Minetest Game is currently in maintenance-only mode, meaning it will not see new
-gameplay features or anything else that breaks compatibility (See
-[#2710](https://github.com/minetest/minetest_game/issues/2710)).
+Gameplay Instructions
 
-## Installation
+    Use WASD keys to move, Space to jump, and mouse to look around.
+    Left-click to mine blocks and right-click to place blocks.
+    Press E to open the inventory and access various tools and blocks.
+    Explore the world, gather resources, build structures, and interact with other players in multiplayer mode.
 
-### ContentDB
 
-* Content > Browse Online Content
-* Search for Minetest Game
-* Click Install
 
-### Manually
 
-- Unzip the archive, rename the folder to `minetest_game` and
-place it in .. `minetest/games/`
+Credits
 
-- GNU/Linux: If you use a system-wide installation place it in `~/.minetest/games/`.
+Minetest Game is developed and maintained by the Minetest team, an open-source community dedicated to creating a versatile voxel game engine inspired by InfiniMiner, Minecraft, and similar games. We extend our sincere thanks to the Minetest team for their ongoing contributions and support.
 
-The Minetest engine can be found at [GitHub](https://github.com/minetest/minetest).
+    Minetest Team: For creating and maintaining the Minetest engine and Minetest Game.
 
-For further information or help, see: [Installing Mods](https://wiki.minetest.net/Installing_Mods).
+License
 
-## Compatibility
+Minetest Game is licensed under the GNU Lesser General Public License v2.1 (LGPL-2.1). See LICENSE for more details.
 
-The Minetest Game GitHub `master` `HEAD` is generally compatible with the GitHub
-`master` `HEAD` of the Minetest engine.
-
-Additionally, when the Minetest engine is tagged to be a certain version (e.g.
-`0.4.10`), Minetest Game is tagged with the version, too.
-
-When stable releases are made, Minetest Game and the Minetest engine is packaged
-and made available at [www.minetest.net](https://www.minetest.net/downloads/).
-
-## Licensing
-
-See `LICENSE.txt`
+This template provides a structured approach to introduce Minetest Game, acknowledging the Minetest team for their efforts and adhering to the LGPL-2.1
